@@ -159,6 +159,14 @@ nav.primary-nav a:hover{ color: var(--on-dark); }
   .mobile-drawer .btn{ margin-top:16px; }
 }
 
+@media (max-width: 640px){
+  header .wrap{ height: 64px; }
+  .brand-logo{ height:34px; }
+  .header-cta{ gap:10px; }
+  .header-cta .btn{ padding: 9px 15px; font-size: 13px; }
+  header.open .mobile-drawer{ top:64px; }
+}
+
 /* ---------- Hero (homepage) ---------- */
 .hero{
   position:relative; overflow:hidden;
